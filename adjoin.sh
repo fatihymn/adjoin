@@ -40,15 +40,3 @@ sudo sed -i 's/#AuthorizedKeysCommand none/AuthorizedKeysCommand \/usr\/bin\/sss
 sudo sed -i 's/#AuthorizedKeysCommandUser nobody/AuthorizedKeysCommandUser nobody/g' /etc/ssh/sshd_config
 sudo systemctl restart sshd
 sudo pam-auth-update --enable mkhomedir
-
-# makine adi ve ip address bilgileri girilir
-#sudo hostnamectl set-hostname $LINUX_HOSTNAME
-#sudo sed -i 's/dhcp4: yes/dhcp4: no/g' /etc/netplan/00-installer-config.yaml
-#sudo sed -i '/dhcp4: no/a \ \ addresses: ['$LINUX_IP_ADDRESS'/24]' /etc/netplan/00-installer-config.yaml
-#sudo netplan apply
-
-#realm join -U Administrator DM.local
-#realm join -U serviceadmin hurriyetim.com.tr
-
-#eger domaine alındıktan sonra sunucuya kullanıcı ssh ile login olamıyorsa bu dizine git bak sss varmı diye
-#cat /etc/nsswitch.conf
