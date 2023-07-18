@@ -3,10 +3,10 @@
 # Asagidaki değişkenleri kendi değerlerinizle değiştirin
 AD_DOMAIN="hurriyetim.com.tr"
 AD_ADMIN_USERNAME="serviceadmin"
-AD_ADMIN_PASSWORD="u3M0z@rt98"
+AD_ADMIN_PASSWORD="xx"
 AD_OU="OU=Servers,DC=hurriyetim,DC=com,DC=tr"
-LINUX_HOSTNAME=""
-LINUX_IP_ADDRESS="10.20.49.x"
+LINUX_HOSTNAME="xxxx"
+LINUX_IP_ADDRESS="10.20.xx.x"
 
 # Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings. HATAYI GIDERMEK ICIN
 sudo rm /var/lib/ubuntu-release-upgrader/release-upgrade-available
